@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333B83"
+    tools:context=".Togsgol">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/togsgol_zurag"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:textSize="48sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_below="@id/togsgol_zurag"
+        android:layout_height="wrap_content"
+        android:textColor="#FADA5E"
+        android:textSize="48sp"
+        android:id="@+id/cong"
+        android:gravity="center"
+        android:text="Баяр хүргэе"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back"
+        app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cong"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Дахин эхлэх"
+        android:textSize="36sp"
+        app:backgroundTint="#FF9800" />
+</RelativeLayout>

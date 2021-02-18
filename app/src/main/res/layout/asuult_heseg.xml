@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asuult_back"
+    android:orientation="vertical"
+    tools:context=".AsuultHeseg">
+    <ProgressBar
+        android:layout_margin="10dp"
+        android:layout_height="25dp"
+        android:paddingHorizontal="1dp"
+        android:layout_width="match_parent"
+        android:id="@+id/my_progressBar"
+        style="@style/progress_bar"
+        android:theme="@style/progress_bar"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/my_progressBar"
+        android:background="@drawable/tsagaan_huree"
+        android:layout_margin="10dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/asuult"
+        android:textSize="12sp"
+        android:text="GG"
+        />
+    <com.google.android.material.button.MaterialButton
+
+        android:layout_below="@id/asuult"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:background="@drawable/tsagaan_huree_bulan_jijig"
+
+        android:id="@+id/hariult1"
+        android:text="Hariult1"/>
+    <Button
+        android:layout_margin="10dp"
+        android:layout_below="@id/hariult1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tsagaan_huree_bulan_jijig"
+        android:id="@+id/hariult2"
+        android:textSize="12sp"
+        android:text="Hariult2"/>
+    <Button
+        android:layout_margin="10dp"
+        android:layout_below="@id/hariult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+
+        android:background="@drawable/tsagaan_huree_bulan_jijig"
+        android:id="@+id/hariult3"
+        android:text="Hariult3"/>
+    <Button
+        android:layout_margin="10dp"
+        android:layout_below="@id/hariult3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+
+        android:background="@drawable/tsagaan_huree_bulan_jijig"
+        android:id="@+id/hariult4"
+        android:text="Hariult4"/>
+
+
+</RelativeLayout>
